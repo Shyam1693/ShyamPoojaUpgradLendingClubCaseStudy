@@ -56,57 +56,65 @@ Purpose: Understand the primary drivers of loan default
 
 ## Conclusions
 
-- Unordered Univariate Analysis:
-•	Loan Term: Approximately 73% of loans have a 36-month tenure, while 26% have a 60-month tenure.
+### Unordered Univariate Analysis:
 
-•	Loan Grade: Most common loan grades are B (30%), A (25%), and C (20%).
+-	Loan Term: Approximately 73% of loans have a 36-month tenure, while 26% have a 60-month tenure.
 
-•	Home Ownership and Purpose: About 92% of borrowers either rent or have a mortgage, with only 1% having a loan purpose of "house." 47% of borrowers' primary purpose is "debt consolidation."
+-	Loan Grade: Most common loan grades are B (30%), A (25%), and C (20%).
 
-•	Verification Status: 42% of borrowers' income is "not verified," which represents a risk.
+-	Home Ownership and Purpose: About 92% of borrowers either rent or have a mortgage, with only 1% having a loan purpose of "house." 47% of borrowers' primary purpose is "debt consolidation."
 
-•	Loan Status: Only 14% of borrowers are classified as "Defaulters."
+-	Verification Status: 42% of borrowers' income is "not verified," which represents a risk.
 
-- Bivariate Analysis on Categorical Variables:
-•	Loan Term: Loans with a 60-month tenure are more likely to default (22.6%) than 36-month loans (11.1%).
-•	Loan Grade: G-grade loans have the highest default rate (32%), while A-grade loans have the lowest (6%).
-•	Employment Length: Loans are more likely to default (15%) when the borrower's employment length is 10+ years.
-•	Home Ownership: Borrowers without their own homes have a 13-15% chance of default.
-•	Verification Status: "Not Verified" loans carry a 12% default risk.
-•	Purpose: Loans with the "small business" purpose have the highest default probability (26%).
+-	Loan Status: Only 14% of borrowers are classified as "Defaulters."
 
-- Ordered Univariate Analysis:
-•	Employment Length: Most borrowers (22.4%) have 10+ years of employment.
-•	Inquiries in the Last 6 Months: 48% of the time, there are no inquiries or 0 inquiries in the last 6 months.
-•	Inferences - Segmented Univariate Analysis:
+### Bivariate Analysis on Categorical Variables:
 
-•	Loan Amount and Term: Loan amounts are higher for 60-month loans.
-•	Loan Amount and Grade: Loan amounts are higher for G, F, and E-grade loans.
-•	Loan Amount and Verification Status: Verified loans tend to have higher loan amounts.
-•	Interest Rate and Term: Interest rates are higher for 60-month loans.
-•	Interest Rate and Grade: Interest rates increase with lower loan grades.
+-	Loan Term: Loans with a 60-month tenure are more likely to default (22.6%) than 36-month loans (11.1%).
+-	Loan Grade: G-grade loans have the highest default rate (32%), while A-grade loans have the lowest (6%).
+-	Employment Length: Loans are more likely to default (15%) when the borrower's employment length is 10+ years.
+-	Home Ownership: Borrowers without their own homes have a 13-15% chance of default.
+-	Verification Status: "Not Verified" loans carry a 12% default risk.
+-	Purpose: Loans with the "small business" purpose have the highest default probability (26%).
 
-- Segmented Univariate Analysis on Default Status:
-•	Interest Rate: Default loans have higher interest rates, with an average of 13.88% compared to 11.7% for non-default loans.
-•	Annual Income: Defaulters tend to have lower annual incomes.
-•	Principal Received: Defaulters receive significantly less principal.
-•	Revolving Line Utilization Rate: Higher utilization rates are associated with loan default.
-•	Open Credit Lines: Defaulters have fewer open credit lines.
+### Ordered Univariate Analysis:
 
-- Segmented Univariate Analysis on Default Status Over Time:
-•	Loan Applicants: The number of loan applicants increased over time, with the highest in 2011.
-•	Loan Amount: Higher loan amounts are observed in the second half of the year.
+-	Employment Length: Most borrowers (22.4%) have 10+ years of employment.
+-	Inquiries in the Last 6 Months: 48% of the time, there are no inquiries or 0 inquiries in the last 6 months.
 
-- Bivariate Analysis on Continuous Variables:
-•	Loan Amount: Highly correlated with funded amount.
-•	Loan Amount and Installment: Strong positive correlation.
-•	Total Account Lines and Open Account Lines: Highly correlated.
-•	Revolving Line Utilization Rate and Interest Rate: Moderately correlated.
+###	Inferences - Segmented Univariate Analysis:
 
-- Correlations Between Loan Amount, Funded Amount, and Installment:
-•	Funded amounts are highly correlated with loan amounts and installments.
+-	Loan Amount and Term: Loan amounts are higher for 60-month loans.
+-	Loan Amount and Grade: Loan amounts are higher for G, F, and E-grade loans.
+-	Loan Amount and Verification Status: Verified loans tend to have higher loan amounts.
+-	Interest Rate and Term: Interest rates are higher for 60-month loans.
+-	Interest Rate and Grade: Interest rates increase with lower loan grades.
 
-- Final Conclusion:
+### Segmented Univariate Analysis on Default Status:
+
+-	Interest Rate: Default loans have higher interest rates, with an average of 13.88% compared to 11.7% for non-default loans.
+-	Annual Income: Defaulters tend to have lower annual incomes.
+-	Principal Received: Defaulters receive significantly less principal.
+-	Revolving Line Utilization Rate: Higher utilization rates are associated with loan default.
+-	Open Credit Lines: Defaulters have fewer open credit lines.
+
+### Segmented Univariate Analysis on Default Status Over Time:
+
+-	Loan Applicants: The number of loan applicants increased over time, with the highest in 2011.
+-	Loan Amount: Higher loan amounts are observed in the second half of the year.
+
+### Bivariate Analysis on Continuous Variables:
+
+-	Loan Amount: Highly correlated with funded amount.
+-	Loan Amount and Installment: Strong positive correlation.
+-	Total Account Lines and Open Account Lines: Highly correlated.
+-	Revolving Line Utilization Rate and Interest Rate: Moderately correlated.
+
+### Correlations Between Loan Amount, Funded Amount, and Installment:
+
+-	Funded amounts are highly correlated with loan amounts and installments.
+
+### Final Conclusion:
 
 This exploratory data analysis provides a robust foundation for further data preprocessing, feature engineering, and predictive modelling. It is evident that various factors such as loan term, grade, employment length, and verification status significantly influence the likelihood of loan default. These insights will be instrumental in enhancing our portfolio management and risk assessment strategies.
 
