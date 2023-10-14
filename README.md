@@ -12,7 +12,8 @@ By successfully identifying these key driver variables, the company can harness 
 * [Business Objective]
 * [Dataset Overview]
 * [Technologies Used]
-* [Conclusions]
+* [Observations]
+* [Conclusion]
 
 
 ## General Information
@@ -54,7 +55,7 @@ Purpose: Understand the primary drivers of loan default
 - ipywidgets - version 8.1.1
 
 
-## Conclusions
+## Observations
 
 ### Unordered Univariate Analysis:
 
@@ -114,9 +115,11 @@ Purpose: Understand the primary drivers of loan default
 
 -	Funded amounts are highly correlated with loan amounts and installments.
 
-### Final Conclusion:
+## Conclusion:
 
-This exploratory data analysis provides a robust foundation for further data preprocessing, feature engineering, and predictive modelling. It is evident that various factors such as loan term, grade, employment length, and verification status significantly influence the likelihood of loan default. These insights will be instrumental in enhancing our portfolio management and risk assessment strategies.
+- This exploratory data analysis provides a robust foundation for further data preprocessing, feature engineering, and predictive modelling. 
+- It is evident that various factors such as loan term, grade, employment length, and verification status significantly influence the likelihood of loan default. 
+- These insights will be instrumental in enhancing our portfolio management and risk assessment strategies.
 
 
 
